@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+dist/
+.vinext/
+.wrangler/
+
+# local and environment files
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.tsbuildinfo
